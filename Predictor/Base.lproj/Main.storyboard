@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aGi-oy-oAl">
+    <device id="retina6_0" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shlash Controller-->
+        <scene sceneID="PXB-fG-X8T">
+            <objects>
+                <viewController id="aGi-oy-oAl" customClass="ShlashController" customModule="Predictor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ibE-og-nSc">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3VT-Hz-ea7">
+                                <rect key="frame" x="75" y="212" width="240" height="120"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XKK-zx-wIK">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.96465145809999997" green="0.96682543320000003" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="QZ5-VK-LAT"/>
+                                    <constraint firstAttribute="width" constant="240" id="uxw-mw-2F8"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made by tankucc1no" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fk2-Jl-lQg">
+                                <rect key="frame" x="137" y="790.66666666666663" width="116.33333333333331" height="14.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magic Book" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NA8-gC-fNf">
+                                <rect key="frame" x="148" y="764.66666666666663" width="94.333333333333314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SQ1-Dq-qWp"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                        <constraints>
+                            <constraint firstItem="fk2-Jl-lQg" firstAttribute="centerX" secondItem="ibE-og-nSc" secondAttribute="centerX" id="1db-UL-QuO"/>
+                            <constraint firstItem="fk2-Jl-lQg" firstAttribute="top" secondItem="NA8-gC-fNf" secondAttribute="bottom" constant="5" id="245-iC-hBj"/>
+                            <constraint firstItem="SQ1-Dq-qWp" firstAttribute="bottom" secondItem="fk2-Jl-lQg" secondAttribute="bottom" constant="5" id="LHe-Ad-Vd0"/>
+                            <constraint firstItem="3VT-Hz-ea7" firstAttribute="centerY" secondItem="ibE-og-nSc" secondAttribute="centerY" constant="-150" id="QaV-Jh-XpE"/>
+                            <constraint firstItem="NA8-gC-fNf" firstAttribute="centerX" secondItem="ibE-og-nSc" secondAttribute="centerX" id="gGh-Ci-DEF"/>
+                            <constraint firstItem="3VT-Hz-ea7" firstAttribute="centerX" secondItem="ibE-og-nSc" secondAttribute="centerX" id="rsj-tm-CyS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="18y-RR-dwq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-592" y="-28"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="home" id="BYZ-38-t0r" customClass="ViewController" customModule="Predictor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="center" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IsV-vR-Gac">
+                                <rect key="frame" x="40.333333333333343" y="112.33333333333333" width="309.33333333333326" height="58.666666666666671"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IsV-vR-Gac" secondAttribute="height" multiplier="95:18" id="a8S-el-Vds"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="预言之书">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="49"/>
+                                            <font key="NSOriginalFont" metaFont="system" size="49"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" systemColor="secondaryLabelColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nwH-t6-Fz4">
+                                <rect key="frame" x="60" y="518" width="270" height="132"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nwH-t6-Fz4" secondAttribute="height" multiplier="45:22" id="OAK-hI-78o"/>
+                                    <constraint firstAttribute="height" constant="132" id="Voh-lL-v7a"/>
+                                    <constraint firstAttribute="width" constant="270" id="hIF-LR-iap"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="答案就藏在迷雾里">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" metaFont="system" size="21"/>
+                                            <font key="NSOriginalFont" size="30" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="告诉我你的困境..." allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="告诉我你的困境..." textAlignment="center" clearsOnBeginEditing="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="18" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="SMg-ko-hCm">
+                                <rect key="frame" x="95" y="211.66666666666666" width="200" height="78.666666666666657"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="SMg-ko-hCm" secondAttribute="height" multiplier="135:53" id="EmM-bE-XcA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" smartDashesType="yes" smartInsertDeleteType="yes" smartQuotesType="yes"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqF-fF-l9w">
+                                <rect key="frame" x="95" y="397" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="5tF-GW-B3P"/>
+                                    <constraint firstAttribute="height" constant="50" id="Bsa-3c-sFF"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="获取指引" titleAlignment="center">
+                                    <fontDescription key="titleFontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="24"/>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemGray3Color"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PE9-cT-6M0"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="剩余次数：5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6qg-XH-Prh">
+                                <rect key="frame" x="140" y="457" width="110" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Dme-Nv-4q5"/>
+                                    <constraint firstAttribute="width" constant="110" id="JUS-8r-zf6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstItem="nwH-t6-Fz4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="162" id="2MQ-JP-2O9"/>
+                            <constraint firstItem="uqF-fF-l9w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="46N-Kr-ylO"/>
+                            <constraint firstItem="SMg-ko-hCm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AIw-Xz-xl6"/>
+                            <constraint firstItem="6qg-XH-Prh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50" id="D1u-HC-6cr"/>
+                            <constraint firstItem="6qg-XH-Prh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mcd-a9-4Sr"/>
+                            <constraint firstItem="IsV-vR-Gac" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O3u-iW-wbY"/>
+                            <constraint firstItem="nwH-t6-Fz4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Utc-18-UCl"/>
+                            <constraint firstItem="IsV-vR-Gac" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-280.5" id="ar6-3A-DYF"/>
+                            <constraint firstItem="nwH-t6-Fz4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bFV-eo-WvP"/>
+                            <constraint firstItem="nwH-t6-Fz4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="162" id="pp1-3o-Nr4"/>
+                            <constraint firstItem="SMg-ko-hCm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-171" id="qEF-Ot-6n8"/>
+                            <constraint firstItem="uqF-fF-l9w" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wQI-qK-e3a"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="uqF-fF-l9w" id="qeS-ir-aU8"/>
+                        <outlet property="countLabel" destination="6qg-XH-Prh" id="o6l-u6-EDH"/>
+                        <outlet property="inputTextField" destination="SMg-ko-hCm" id="QC8-JP-zju"/>
+                        <outlet property="outputTextField" destination="nwH-t6-Fz4" id="twg-7M-UmV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="236.92307692307691" y="-28.436018957345969"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pic" width="6240" height="3512"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
